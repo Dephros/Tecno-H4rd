@@ -20,7 +20,7 @@ Tecnologias usadas: node.js y vue.js.
 - Poder realizar la compra.
 - Historial de compras por usuario.
 
-# Reglas de negocio
+## Reglas de negocio
 - Regristro y login de usuario.
      - El username será el email; no podran haber dos usuarios registrados con el mismo email ni con el mismo dni.
 - Búsqueda de productos filtrando por categorías.
@@ -41,14 +41,14 @@ Tecnologias usadas: node.js y vue.js.
 - Historial de compras por usuario.
     - Se podrá consultar el historial de compras que tenga el usuario. En el historial se mostrará que ítems contenía el carrito a la hora de realizar la compra. Tendrá los siguientes datos: fecha de compra, total y método de pago utilizado. No se podrá borrar el historial.
 
-# Contacto
+## Contacto
 - Integrantes
     - Fernando Bernasconi (fernandobernasconi@gmail.com)
     - Lautaro Valenzuela (lautarovalenzuela94@gmail.com)
     - Miguel Angel Traversaro (migueltraversaro@gmail.com)
     - Miguel Hernán Pinella (mhpinella@gmail.com)
 
-# Repositorio GitHub
+## Repositorio GitHub
 [Link al repositorio](https://github.com/Dephros/Tecno-H4rd)
 
 [1]:https://icon-library.com/images/github-icon-for-resume/github-icon-for-resume-14.jpg
