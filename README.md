@@ -8,27 +8,31 @@ Tecno H4rd es una aplicación destinada a la venta de hardware de computación.
 Tecnologias usadas: node.js y vue.js.
 
 ## Lógica de negocio
+
 - Carga y control de stock
     - La cantidad de stock inicial es la cantidad cargada en la base de datos. No hay límite de cantidad por producto. Cuando se vende un producto, el sistema resta la cantidad que se vendió a la cantidad actual. Cuando no haya más stock de un producto, no se podrá vender el mismo y se notificará al administrador la falta de este.
 - Método de pago
     - Las compras realizadas por los usuarios se podrán pagar en efectivo o con tarjeta de crédito y débito.
 - Método de venta
     - Todas las ventas se realizarán de manera online por un usuario registrado. No se puede comprar de manera presencial (si pagar). Si el usuario decide pagar en efectivo, tiene un plazo de 5 días hábiles para pagar el producto, o la venta se cancela automáticamente.
--Método de entrega de las compras
+- Método de entrega de las compras
     - Se podrán retirar de manera presencial por el usuario que compró el producto, mostrando su DNI, o se podrá enviar al domicilio que indique el comprador.
 
 ## Funcionalidades
 
+- Carga y control de stock.
 - Regristro y login de usuario.
 - Búsqueda de productos filtrando por categorías.
 - Búsqueda de productos filtrando por nombre.
 - Ordenar por precio.
+- Visualización de stock de los productos.
 - Agregar productos a carrito de compra.
 - Guardar métodos de pago.
 - Poder realizar la compra.
 - Historial de compras por usuario.
 
 ## Descripción de las funcionalidades
+
 - Regristro y login de usuario.
      - El username será el email; no podran haber dos usuarios registrados con el mismo email ni con el mismo dni.
 - Búsqueda de productos filtrando por categorías.
@@ -50,6 +54,7 @@ Tecnologias usadas: node.js y vue.js.
     - Se podrá consultar el historial de compras que tenga el usuario. En el historial se mostrará que ítems contenía el carrito a la hora de realizar la compra. Tendrá los siguientes datos: fecha de compra, total y método de pago utilizado. No se podrá borrar el historial.
 
 ## Contacto
+
 - Integrantes
     - Fernando Bernasconi (fernandobernasconi@gmail.com)
     - Lautaro Valenzuela (lautarovalenzuela94@gmail.com)
@@ -57,6 +62,7 @@ Tecnologias usadas: node.js y vue.js.
     - Miguel Hernán Pinella (mhpinella@gmail.com)
 
 ## Repositorio GitHub
+
 [Link al repositorio](https://github.com/Dephros/Tecno-H4rd)
 
 [1]:https://icon-library.com/images/github-icon-for-resume/github-icon-for-resume-14.jpg
