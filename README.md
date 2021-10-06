@@ -18,6 +18,10 @@ Tecnologias usadas: node.js y vue.js.
 - Método de entrega de las compras
     - Se podrán retirar de manera presencial por el usuario que compró el producto, mostrando su DNI, o se podrá enviar al domicilio que indique el comprador.
 
+## Actores del sistema
+- Usuario Administrador: tiene la capacidad de agregar nuevo stock a los productos.
+- Usuario Comprador: tiene la capacidad de utilizar todas las funcionalidades menos la de carga de stock que le corresponde al administrador.
+
 ## Funcionalidades
 
 - Carga y control de stock.
