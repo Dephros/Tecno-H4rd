@@ -19,7 +19,7 @@ Tecnologias usadas: node.js y vue.js.
     - Se podrán retirar de manera presencial por el usuario que compró el producto, mostrando su DNI, o se podrá enviar al domicilio que indique el comprador.
 
 ## Roles
-- Usuario Administrador: tiene la capacidad de agregar nuevo stock a los productos.
+- Usuario Administrador: tiene la capacidad de visualizar y agregar nuevo stock a los productos.
 - Usuario Comprador: tiene la capacidad de utilizar todas las funcionalidades menos la de carga y control de stock que le corresponde al administrador.
 
 ## Funcionalidades
