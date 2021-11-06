@@ -13,7 +13,6 @@ const testHandler = (req, res) => {
 const getAll =  (req, res) => {
 
     res.json("OK")
-
     /*
     try {
         const usuarios = await User.find()
