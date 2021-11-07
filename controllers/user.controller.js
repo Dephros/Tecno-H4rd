@@ -6,16 +6,11 @@ var express = require('express');
 var router = express.Router();
 
 
-const testHandler = (req, res) => {
-    res.json("all users")
-}
 
-const getAll =  (req, res) => {
+const getAll =  async (req, res) => {
 
-    res.json("OK")
-    
-    /*
     try {
+
         const usuarios = await User.find()
 
         return res.status(200).json(usuarios)
@@ -24,7 +19,7 @@ const getAll =  (req, res) => {
         return res.status(404).json(error)
 
     }
-    */
+    
 
 }
 
@@ -59,11 +54,27 @@ const createUser = async (req, res) => {
     }
 }
 
+const deleteUser = async (req, res) => {
 
-//module.exports = {testHandler,getAll,createUser};
+    try {
+        const dniUser = parseString(req.params.dni)
+        console.log(dni)
+        
+            let existe = await User.exists({ dni: dni })
+            console.log(existe)
 
+            if (existe) {
 
+                await User.deleteOne({dni : dniUser })                
+                res.status(200)               
 
-module.exports = testHandler;
-module.exports = getAll;
-module.exports = createUser;
+            }
+
+    } catch (error) {
+        console.log("error")
+        res.json(error)
+        res.status(404)
+    }
+}
+
+module.exports = {getAll,createUser,deleteUser}
